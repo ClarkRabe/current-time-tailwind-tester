@@ -10,9 +10,18 @@
     <script src="script.js" defer></script>
 
 </head>
-<body>
-
-    <h1>Starter kit for Tailwind CSS.</h1>
+<body class="h-screen flex items-center justify-center bg-[url('/images/clock.jpg')] bg-center bg-no-repeat">
+  
+    <time class="container-none m-5 inline-grid lg:grid-cols-6 md:grid-rows-1">
     
-</body>
+      <data class="hours text-center inline text-8xl">HH</data>
+      <data class = "text-center inline text-8xl">:</data>
+      <data class="minutes text-center inline text-8xl">MM</data>
+      <data class = "text-center inline text-8xl">:</data>
+      <data class="seconds text-center block text-8xl">SS</data>
+      <data class="amOrPM text-center block text-3xl">AM/PM</data>
+    
+    </time>
+    
+  </body>
 </html>
